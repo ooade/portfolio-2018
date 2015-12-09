@@ -1,0 +1,63 @@
+body{
+    background-image: url("http://www.indianaffiliateprograms.com/wp-content/uploads/2015/06/Modern-Web-Design-Trends.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment:fixed;
+    font-family: 'Ubuntu', cursive; 
+}
+.navbar-default{
+    background-color: #3b94d9;   
+    color: white;
+    border: none;
+}
+.navbar-brand, navbar-brand > a{
+    color: #fff !important;
+    cursor: pointer;
+    font-family: 'Raleway', cursive;
+    margin: 4px;
+    font-weight: bolder;
+}
+.links:hover{
+    background-color: #89c9fa !important;
+}
+.navbar-header{
+    width: 100%;
+}
+#home{
+    margin-top: 150px;
+    padding: 10px;
+}
+.about-headline{
+    font-family: 'Ubuntu', cursive;    
+    font-size: 50px;
+    font-weight: 700;
+}
+.about-desc{
+    font-family: 'Ubuntu', cursive;    
+    font-size: 20px;
+    font-weight: 400; 
+}
+#about {
+    background-color:#333;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding: 50px;
+    background-position: top center;
+    margin: 350px -15px 0px -15px;
+    height: 580px;
+}
+#portfolio{
+    background-image: url("https://www.menatransitionfund.org/sites/mena_trans_fund/files/portfolio.jpg");
+    background-color: #DEB887;
+    background-attachment:scroll;
+    padding: 50px;
+    background-position: top center;
+    margin: 0px -15px 0px -15px;
+    height: auto;
+}
+.well{
+    border-radius: 0px;
+}
+#contact{
+    margin-top: 50px;
+}
