@@ -1,13 +1,17 @@
 body{
-    background-image: url("http://www.indianaffiliateprograms.com/wp-content/uploads/2015/06/Modern-Web-Design-Trends.jpg");
+    background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment:fixed;
+    background-size: cover;
     font-family: 'Ubuntu', cursive; 
+    position: relative;
 }
 .navbar-default{
-    background-color: #3b94d9;   
+    /*background-color: #3b94d9;   */
+    background-color: #232323;
     color: white;
+    height: 60px;
     border: none;
 }
 .navbar-brand, navbar-brand > a{
@@ -16,48 +20,106 @@ body{
     font-family: 'Raleway', cursive;
     margin: 4px;
     font-weight: bolder;
+    font-size: 14px;
 }
-.links:hover{
-    background-color: #89c9fa !important;
+.nav-pills{
+    margin: 5px !important;
+}
+.modal{
+    margin-top: 50px;
+    font-family: 'Raleway', cursive;
+}
+.modal-header{
+    background-color: #e14d43;
+    border-bottom: none;
+    color: #fff;
+}
+.modal-body{
+    background-color:#232323;
+    color: #fff;
+}
+
+.modal-body li{
+    list-style: none;
+}
+
+.nav-pills li a:hover,
+.nav-pills li.active a,
+.nav-pills li.active a:focus,
+.nav-pills li.active a:hover
+.button-down a:hover{
+    /*background-color: #89c9fa !important;*/
+    border-bottom:3px solid #e14d43 !important; 
+    color:#e14d43 !important;
+    border-radius: 0px !important;
+    background: none !important;
+    -webkit-transition: all 0.3s ease;
 }
 .navbar-header{
     width: 100%;
 }
 #home{
-    margin-top: 150px;
     padding: 10px;
+    height: 700px;
+    padding-top: 200px; 
+}
+.button-down a{
+    position: relative;
+    top:100px;
+    background-color: rgba(0,0,0,0.7);
+    width: 100px;
+    padding: 10px;
+    border:none;
+    border-radius: 0px;
 }
 .about-headline{
     font-family: 'Ubuntu', cursive;    
     font-size: 50px;
     font-weight: 700;
+    color: #fff;
 }
-.about-desc{
-    font-family: 'Ubuntu', cursive;    
-    font-size: 20px;
-    font-weight: 400; 
+.about-desc, .port-desc{
+    font-family: 'Raleway', cursive;    
+    font-size: 18px;
+    color: #fff;
+}
+.about-desc b{
+    font-size: 22px; 
+    text-transform: uppercase;
+    color: #e14d43;
+}
+.about-desc .title{
+	font-size: 20px;
+	color: #e14d43;
 }
 #about {
-    background-color:#333;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    padding: 50px;
-    background-position: top center;
-    margin: 350px -15px 0px -15px;
-    height: 580px;
+    background-color: rgba(0,0,0,0.9);
+    padding: 155px;
+    height: 700px;
+    margin: 0px -15px 0px -15px;
+}
+.folios-text{
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px;
+    font-family: 'Raleway', cursive;
+    font-size: 18px;
+    color: #fff;
 }
 #portfolio{
-    background-image: url("https://www.menatransitionfund.org/sites/mena_trans_fund/files/portfolio.jpg");
-    background-color: #DEB887;
-    background-attachment:scroll;
     padding: 50px;
-    background-position: top center;
     margin: 0px -15px 0px -15px;
-    height: auto;
+    background-image: url("../images/img3.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment:fixed;
+    background-size: cover;
 }
 .well{
     border-radius: 0px;
 }
 #contact{
-    margin-top: 50px;
+    margin: 0px -15px 0px -15px;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
 }
