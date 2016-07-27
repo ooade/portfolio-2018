@@ -1,0 +1,86 @@
+body {
+  width: 100%;
+}
+
+.folios-text{
+  background-color: rgba(0,0,0,0.5);
+  padding: 5px;
+  font-family: 'Roboto', cursive;
+  font-size: 18px;
+  color: #fff;
+}
+
+.btn-view {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 18px;
+  background-color:#333;
+}
+
+.btn {
+  font-family: "lobster", sans-serif;
+}
+
+#home {
+  background-image: url('../img/bg.jpg');
+  background-color: #333;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: calc(100vh - 50px);
+  min-height: 500px;
+}
+
+.logo-text, #portfolio > h2 {
+  font-family: "Lobster", sans-serif;
+  font-size: 20px;
+}
+
+.cd-main-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 15vh;
+  height: 100%;
+}
+
+#portfolio {
+  padding-top: 6vh;
+  text-align: center;
+  background-image: url('../img/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  /*height: 100vh;*/
+  color: #fff;
+}
+
+#portfolio > h2 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.cd-author-nameimg {
+  padding: 20px;
+  z-index: 4;
+}
+#contact{
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+.cd-logo {
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.cd-author {
+  display: block;
+  margin: auto;
+  width: 200px;
+  border-radius: 100%;
+  border: 10px solid rgba(0, 0, 0, 0.2);
+}
