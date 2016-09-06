@@ -64,6 +64,10 @@ body {
 
 .cd-author-nameimg {
   padding: 20px;
+  margin-top: 20vh;
+  margin-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
   z-index: 4;
 }
 #contact{
