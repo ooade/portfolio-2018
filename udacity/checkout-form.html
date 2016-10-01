@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="checkout-form.css"/>
+  <title>Payment Checkout</title>
+</head>
+
+<body>
+  <div class="container">
+    <h3>Checkout Page</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <h2> Your Order: </h2>
+        <br/>
+        3 Pieces of Pepperoni &amp; Jalapeno Pizza
+        <br/>
+        <h4> 3 x $500 = $1500 </h4>
+        <br/>
+        <br/>
+        <img src="http://www.cicis.com/media/1171/pizza_trad_pepperonijalapeno_sm.png" class="img-responsive"/>
+      </div>
+      <div class="col-md-6">
+        <div class="progress">
+          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+            <span class="sr-only">0% Complete</span>
+          </div>
+        </div>
+        <form autocomplete="on" action="#">
+          <h4> Personal Info </h4>
+          <div class="form-group">
+            <label for="fullname" class="control-label"> Full Name </label>
+            <input type="text" id="fullname" placeholder="John Doe" class="form-control" required />
+          </div>
+          <div class="form-group">
+            <label for="email" class="control-label"> Email Address </label>
+            <input type="email" id="email" placeholder="johndoe@gmail.com" class="form-control" required />
+          </div>
+          <div class="form-group">
+            <label for="country" class="control-label"> Country </label>
+            <input type="text" id="country" placeholder="Country" class="form-control" required />
+          </div>
+
+          <h4 class="billing"> Credit Card Info </h4>
+          <div class="form-group">
+            <label for="cc-number" class="control-label">Card Number</label>
+            <input id="cc-number" type="tel" class="form-control cc-number" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" required />
+          </div>
+
+          <div class="form-group row">
+            <div class="col-md-6">
+              <label for="cc-exp" class="control-label">Expire Date (MM/YY)</label>
+              <input id="cc-exp" type="tel" class="form-control cc-exp" autocomplete="cc-exp" placeholder="00/00" required />
+            </div>
+            <div class="col-md-6">
+              <label for="cc-cvc" class="control-label">Card CVC</label>
+              <input id="cc-cvc" type="number" class="form-control cc-cvc" autocomplete="off" placeholder="000" required />
+            </div>
+          </div>
+          <button type="submit" id="submit" class="btn btn-block btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="checkout-form.js"></script>
+  </body>
+</html>
