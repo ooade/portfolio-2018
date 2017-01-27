@@ -13,7 +13,12 @@ export default class MyDocument extends Document {
         <Head>
           <meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui' />
           <meta name='theme-color' content='#673ab7' />
+          <meta name='keywords' content='sw engineer, fullstack, engineer, developer, programmer, opensourcerer' />
+          <meta name='robots' content='index, follow' />
+          <meta name='description' content='Ademola Adegbuyi is a FullStack Sofware engineer. Check out his github page to see all the stuffs he has written' />
+          <meta name='theme-color' content='#673ab7' />
           <link rel='manifest' href='static/manifest.json' />
+          <link href='/static/favicon.ico' rel='shortcut icon'/>
           <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css' />
           <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css' />
           <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' />
