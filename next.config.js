@@ -15,6 +15,10 @@ module.exports = {
           runtimeCaching: [
             // Example with different handlers
             {
+              handler: 'cacheFirst',
+              urlPattern: /\/$/ //url path
+            },
+            {
               handler: 'fastest',
               urlPattern: /[.](png|jpg|css)/
             },
