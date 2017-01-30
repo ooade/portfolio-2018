@@ -21,7 +21,6 @@ export default class MyDocument extends Document {
           <link href='/static/favicon.ico' rel='shortcut icon'/>
           <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css' />
           <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css' />
-          <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' />
           <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cousine' />
           <title> Ademola Adegbuyi's Portfolio </title>
           <style dangerouslySetInnerHTML={{ __html: this.props.css.content }} />

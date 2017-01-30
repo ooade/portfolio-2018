@@ -20,6 +20,6 @@ app.prepare()
     server.listen(PORT, err => {
       if (err) throw error;
 
-      console.log('> App running on port' + PORT);
+      console.log('> App running on port ' + PORT);
     });
   });

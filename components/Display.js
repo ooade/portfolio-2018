@@ -40,12 +40,12 @@ export default class Display extends React.Component {
         <div className={css(scrollBars)}>
           <p>
             <a href='javascript:' onClick={this.state.page !== 0 && this.prevPage}>
-              <i className='ion-chevron-up'/>
+              <img style={{ width: 30, height: 30 }} src='/static/arrow_up.svg' />
             </a>
           </p>
           <p>
             <a href='javascript:' onClick={this.state.page !== 3 && this.nextPage}>
-              <i className='ion-chevron-down'/>
+              <img style={{ width: 30, height: 30 }} src='/static/arrow_down.svg' />
             </a>
           </p>
         </div>
