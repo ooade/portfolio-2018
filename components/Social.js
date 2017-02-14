@@ -28,7 +28,7 @@ export default class Social extends React.Component {
       github: ['https://github.com/ooade', '#333'],
       twitter: ['https://twitter.com/_ooade', '#1da1f2'],
       facebook: ['https://facebook.com/ademola.o.adegbuyi', '#3b5998'],
-      linkedin: ['https://https://ng.linkedin.com/in/ooade', '#0077b5']
+      linkedin: ['https://ng.linkedin.com/in/ooade', '#0077b5']
     }
 
     return (
