@@ -24,7 +24,7 @@ module.exports = {
             },
             {
               handler: 'networkFirst',
-              urlPattern: /.*/ //cache all files
+              urlPattern: /http.*/ //cache all files
             }
           ]
         })
