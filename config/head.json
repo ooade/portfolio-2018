@@ -10,7 +10,7 @@
 		},
 		{
 			"property": "og:title",
-			"content": "Ademola Adegbuyi - Full Stack Web Developer & Student"
+			"content": "Ademola Adegbuyi"
 		},
 		{
 			"property": "og:site_name",
@@ -22,12 +22,12 @@
 		},
 		{
 			"property": "og:image",
-			"content": "/img/apple-touch-icon-152x152.png"
+			"content": "/img/splashscreen-icon-384x384.png"
 		},
 		{
 			"property": "og:description",
 			"name": "description",
-			"content": "Ademola Adegbuyi - Talks, Contact, More About Ademola"
+			"content": "FullStack Developer / Student. Check out his Talks, Contact, and More"
 		}
 	],
 	"link": [
