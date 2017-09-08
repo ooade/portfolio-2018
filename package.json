@@ -1,0 +1,20 @@
+{
+  "name": "my-portfolio",
+  "version": "2.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "author": "Ademola Adegbuyi <ooade96@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@nuxtjs/manifest": "^1.6.1",
+    "@nuxtjs/workbox": "^1.2.0",
+    "nuxt": "^1.0.0-rc11"
+  },
+  "devDependencies": {}
+}
