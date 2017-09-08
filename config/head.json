@@ -9,6 +9,10 @@
 			"content": "width=device-width, initial-scale=1"
 		},
 		{
+			"name": "theme-color",
+			"content": "#7E57C2"
+		},
+		{
 			"property": "og:title",
 			"content": "Ademola Adegbuyi"
 		},
@@ -22,19 +26,21 @@
 		},
 		{
 			"property": "og:image",
-			"content": "/img/splashscreen-icon-384x384.png"
+			"content": "/img/icon-512x512.png"
 		},
 		{
 			"property": "og:description",
 			"name": "description",
-			"content": "FullStack Developer / Student. Check out his Talks, Contact, and More"
+			"content":
+				"FullStack Developer / Student. Check out his Talks, Contact, and More"
 		}
 	],
 	"link": [
 		{
 			"rel": "stylesheet",
 			"href":
-				"https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+				"https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css",
+			"defer": "defer"
 		},
 		{
 			"rel": "stylesheet",
