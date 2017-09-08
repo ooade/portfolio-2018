@@ -12,6 +12,9 @@
 
 		<h2 class="category" id="about"> More About Me </h2>
 		<more></more>
+
+		<h2 class="category"> Previously Worked on </h2>
+		<work></work>
 	</div>
 </template>
 
@@ -19,12 +22,14 @@
 import contact from '@/components/contact'
 import more from '@/components/more'
 import talks from '@/components/talks'
+import work from '@/components/work'
 
 export default {
 	components: {
 		contact,
 		more,
-		talks
+		talks,
+		work
 	}
 }
 </script>
