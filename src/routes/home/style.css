@@ -1,0 +1,11 @@
+.home {
+	min-height: 100%;
+	width: 100%;
+	text-align: center;
+	margin-top: 5rem;
+	font-size: 20px;
+}
+
+.items > div {
+	margin-top: 2rem;
+}

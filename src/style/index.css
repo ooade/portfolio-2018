@@ -1,0 +1,53 @@
+@font-face {
+	font-family: SuperMario;
+	src: url('../assets/fonts/SuperMario256.ttf');
+}
+
+html,
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #9290fe;
+	font-family: SuperMario;
+	font-weight: 400;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	color: #fff;
+	cursor: pointer;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
+	text-decoration-style: wavy;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.item {
+	margin-top: 3rem;
+}
+
+button {
+	font-family: SuperMario;
+	color: #fff;
+	padding: 1rem;
+	cursor: pointer;
+	background: transparent;
+	border: 1px solid #fff;
+}
+
+#app {
+	height: 100%;
+}
+
+.svg-inline--fa {
+	margin-right: 0.4rem;
+}
