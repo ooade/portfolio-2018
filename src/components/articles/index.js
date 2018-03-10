@@ -19,9 +19,14 @@ const renderArticles = articles.map(({ link, title }) => (
 	</div>
 ));
 
-const Articles = () => (
+const Articles = ({ clearState }) => (
 	<div>
-		<h1> Articles </h1>
+		<h1>
+			<a onClick={clearState}>
+				<i class="fas fa-angle-left" />
+			</a>{' '}
+			Articles
+		</h1>
 		{renderArticles}
 	</div>
 );

@@ -28,9 +28,14 @@ const renderTalks = talks.map(({ link, title, host }) => (
 	</div>
 ));
 
-const Talks = () => (
+const Talks = ({ clearState }) => (
 	<div>
-		<h1> Talks </h1>
+		<h1>
+			<a onClick={clearState}>
+				<i class="fas fa-angle-left" />
+			</a>{' '}
+			Talks
+		</h1>
 		{renderTalks}
 	</div>
 );

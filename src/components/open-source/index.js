@@ -47,7 +47,12 @@ class OpenSource extends Component {
 
 		return (
 			<div>
-				<h1>Top OpenSource Projects</h1>
+				<h1>
+					<a onClick={this.props.clearState}>
+						<i className={this.state.projects.length && `fas fa-angle-left`} />
+					</a>{' '}
+					Top OpenSource Projects
+				</h1>
 				{!this.state.projects.length && 'loading....'}
 				{renderProjects}
 			</div>

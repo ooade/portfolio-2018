@@ -2,7 +2,6 @@ import { h, Component } from 'preact';
 import style from './style';
 
 import Header from '../../components/header';
-import Footer from '../../components/footer';
 import Talks from '../../components/talks';
 import OpenSource from '../../components/open-source';
 import Projects from '../../components/projects';
@@ -68,15 +67,15 @@ export default class Home extends Component {
 		const renderItem = index => {
 			switch (index) {
 				case 0:
-					return <Talks />;
+					return <Talks clearState={this.clearState} />;
 				case 1:
-					return <OpenSource />;
+					return <OpenSource clearState={this.clearState} />;
 				case 2:
-					return <Projects />;
+					return <Projects clearState={this.clearState} />;
 				case 3:
-					return <Articles />;
+					return <Articles clearState={this.clearState} />;
 				default:
-					return <Talks />;
+					return <Talks clearState={this.clearState} />;
 			}
 		};
 
