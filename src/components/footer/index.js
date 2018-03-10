@@ -54,7 +54,13 @@ const Footer = () => (
 		{renderLinks}
 		<br />
 		<br />
-		<img src="https://www.codewars.com/users/ademola/badges/micro" />
+		<a
+			href="https://codewars.com/users/ademola"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			<img src="https://www.codewars.com/users/ademola/badges/micro" />
+		</a>
 	</div>
 );
 
