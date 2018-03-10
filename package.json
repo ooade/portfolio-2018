@@ -14,7 +14,9 @@
 	"eslintConfig": {
 		"extends": "eslint-config-synacor"
 	},
-	"eslintIgnore": ["build/*"],
+	"eslintIgnore": [
+		"build/*"
+	],
 	"devDependencies": {
 		"eslint": "^4.9.0",
 		"eslint-config-synacor": "^2.0.2",
@@ -27,17 +29,24 @@
 	"dependencies": {
 		"preact": "^8.2.6",
 		"preact-compat": "^3.17.0",
+		"preact-helmet": "^4.0.0-alpha-3",
 		"preact-router": "^2.5.7"
 	},
 	"jest": {
 		"verbose": true,
-		"setupFiles": ["<rootDir>/src/tests/__mocks__/browserMocks.js"],
+		"setupFiles": [
+			"<rootDir>/src/tests/__mocks__/browserMocks.js"
+		],
 		"testURL": "http://localhost:8080",
-		"moduleFileExtensions": ["js", "jsx"],
-		"moduleDirectories": ["node_modules"],
+		"moduleFileExtensions": [
+			"js",
+			"jsx"
+		],
+		"moduleDirectories": [
+			"node_modules"
+		],
 		"moduleNameMapper": {
-			"\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
-				"<rootDir>/src/tests/__mocks__/fileMock.js",
+			"\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/tests/__mocks__/fileMock.js",
 			"\\.(css|less|scss)$": "identity-obj-proxy",
 			"^./style$": "identity-obj-proxy",
 			"^preact$": "<rootDir>/node_modules/preact/dist/preact.min.js",

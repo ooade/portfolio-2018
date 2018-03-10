@@ -33,6 +33,7 @@ a:focus {
 
 .item {
 	margin-top: 3rem;
+	line-height: 1.8rem;
 }
 
 button {
