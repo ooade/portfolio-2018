@@ -12,7 +12,7 @@ const articles = [
 ];
 
 const renderArticles = articles.map(({ link, title }) => (
-	<div className="item">
+	<div className="item" key={title}>
 		<a href={link} target="_blank" rel="noopener noreferrer">
 			{title}
 		</a>
@@ -23,7 +23,7 @@ const Articles = ({ clearState }) => (
 	<div>
 		<h1>
 			<a onClick={clearState}>
-				<i class="fas fa-angle-left" />
+				<i className="fas fa-angle-left" />
 			</a>{' '}
 			Articles
 		</h1>

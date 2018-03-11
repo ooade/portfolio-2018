@@ -7,7 +7,7 @@ const talks = [
 	{
 		link:
 			'https://docs.google.com/presentation/d/13yTCv22Xv1gp6SkzZMVZSkvHgB8lcvkfTRizq0GdCeA/edit?usp=sharing',
-		title: 'Scaling through the hurdles of unemployment as a web developer',
+		title: 'Building Apps With Apollo GraphQL',
 		host: 'Facebook Developer Circles'
 	},
 	{
@@ -19,7 +19,7 @@ const talks = [
 ];
 
 const renderTalks = talks.map(({ link, title, host }) => (
-	<div className="item">
+	<div className="item" key={title}>
 		{host}
 		<a href={link} target="_blank" rel="noopener noreferrer">
 			{' '}
@@ -32,7 +32,7 @@ const Talks = ({ clearState }) => (
 	<div>
 		<h1>
 			<a onClick={clearState}>
-				<i class="fas fa-angle-left" />
+				<i className="fas fa-angle-left" />
 			</a>{' '}
 			Talks
 		</h1>

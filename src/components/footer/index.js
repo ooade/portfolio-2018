@@ -1,5 +1,3 @@
-import style from './style';
-
 const links = [
 	{
 		href: 'https://facebook.com/ademola.o.adegbuyi',
@@ -43,14 +41,14 @@ const links = [
 	}
 ];
 
-const renderLinks = links.map(link => (
-	<a href={link.href} target="_blank" rel="noopener noreferrer">
-		<i className={`fab ${link.icon}`} alt={link.alt} title={link.alt} />
+const renderLinks = links.map(({ alt, icon, href }) => (
+	<a href={href} key={alt} target="_blank" rel="noopener noreferrer">
+		<i className={`fab ${icon}`} alt={alt} title={alt} />
 	</a>
 ));
 
 const Footer = () => (
-	<div id={style.footer}>
+	<div id="footer">
 		{renderLinks}
 		<br />
 		<br />
@@ -61,6 +59,15 @@ const Footer = () => (
 		>
 			<img src="https://www.codewars.com/users/ademola/badges/micro" />
 		</a>
+		<style jsx>
+			{`
+				#footer {
+					margin-top: 7rem;
+					text-align: center;
+					font-size: 20px;
+				}
+			`}
+		</style>
 	</div>
 );
 

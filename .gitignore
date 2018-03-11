@@ -1,6 +1,5 @@
-node_modules
-/build
-/*.log
+node_modules/
+static/sw.js
+.next
 *.lock
-
-package-lock.json
+*-error.log
