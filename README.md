@@ -1,4 +1,4 @@
-# mario-folio
+# MY PORTFOLIO
 
 ## CLI Commands
 
