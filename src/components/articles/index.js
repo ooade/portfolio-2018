@@ -8,6 +8,14 @@ const articles = [
 		link:
 			'https://medium.com/@ooade/freecodecamp-ikeja-novembers-meetup-63870dd074f7',
 		title: 'Scaling through the hurdles of unemployment as a web developer'
+	},
+	{
+		link: 'https://codeburst.io/account-linking-with-passportjs-in-3-minutes-2cb1b09d4a76',
+		title: 'Account Linking in 3 minutes'
+	},
+	{
+		link: 'https://medium.com/@ooade/i-quitted-my-first-job-on-the-first-day-64b4d7e38fed',
+		title: 'I Quit my first job on the first day'
 	}
 ];
 
