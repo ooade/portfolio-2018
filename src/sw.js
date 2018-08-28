@@ -1,4 +1,4 @@
-workbox.core.setCacheNameDetails({ prefix: 'next-ss' });
+workbox.core.setCacheNameDetails({ prefix: 'folio' });
 
 workbox.skipWaiting();
 workbox.clientsClaim();
@@ -33,7 +33,7 @@ workbox.routing.registerRoute(
 
 workbox.routing.registerRoute(
 	/^http.*/,
-	workbox.strategies.cacheFirst({
+	workbox.strategies.staleWhileRevalidate({
 		cacheName: 'http-cache'
 	}),
 	'GET'
