@@ -83,7 +83,7 @@ export default class Home extends Component {
 
 		return (
 			<React.Fragment>
-				{!this.state.item && <Header><title>Ademola Adegbuyi's Portfolio</title></Header>}
+				{!this.state.item && <Header />}
 
 				<div className="home">
 					{!this.state.item && <div className="items">{renderItems}</div>}
