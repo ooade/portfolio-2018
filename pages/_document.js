@@ -26,7 +26,6 @@ export default class MyDocument extends Document {
 						content="Full Stack, Developer, Web, PWA, Ademola, Adegbuyi, Anime, Nigeria"
 					/>
 					<meta name="robots" content="index, follow" />
-					<title>Ademola Adegbuyi's Portfolio</title>
 					<link rel="manifest" href="static/manifest.json" />
 					<link rel="icon" href="/static/favicon.ico" />
 					<link rel="stylesheet" href="/static/index.css" />
