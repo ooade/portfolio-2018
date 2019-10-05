@@ -37,11 +37,13 @@ export default class Home extends Component {
 					this.setState({ index: index < 3 ? index + 1 : 3 });
 					break;
 				case 13:
-					// enter
+				case 39:
+					// enter, arrow right
 					this.toggleItems(null, index);
 					break;
 				case 27:
-					// escape
+				case 37:
+					// escape, arrow left
 					this.setState({ item: false });
 					break;
 			}
